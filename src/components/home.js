@@ -7,7 +7,7 @@ const Home = () =>{
 
 
    
-    let list2 = ["toto","gaspard","trololo"];
+  
 
     const [keyword,setKeyword] = useState("");
     const [listAnims, setlistAnims] = useState(null);
@@ -47,7 +47,7 @@ const Home = () =>{
                             return(
                             <div  key={index} className="animeDetails">
                             <h2>Title: {item.attributes.titles.en_jp}</h2>
-                            <img src={item.attributes.posterImage.tiny}/>
+                            <img src={item.attributes.posterImage.tiny} alt={item.attributes.titles.en_jp+"poster"}/>
                             <p>{item.attributes.description}</p>
                             </div>
                         ) }
