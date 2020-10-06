@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/*********************/
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+.slide{
+
+ 
+}
+.slider{
+  
+  width: cover  ;
+  height: 400px;
+}
+
+.animeDetails{
+  margin: 2%;
+  padding: 1%;
+
+  background-color:burlywood;
+  box-shadow: 10px 2.5px 2.5px black;
+  width: 35%;
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: top;
+}
